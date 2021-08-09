@@ -85,7 +85,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     position: absolute;
-    top: 42vh;
+    top: 38vh;
 }
 
 .skills__Row {
