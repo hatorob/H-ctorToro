@@ -282,13 +282,19 @@ body {
         margin: auto 0 50px auto;
     }
     .skills-nodeJS {
-        margin: 0 100px 0 auto;
+        margin: 0 auto 0 40px;
     }
     .skills-js {
-        margin: auto auto 20px 120px;
+        margin: auto 60px 20px auto;
+    }
+    .skills-js i {
+        color: #F7DF1E;
     }
     .skill-cssOne {
-        margin: 10px auto auto 40px;
+        margin: 10px auto auto 0;
+    }
+    .skill-cssOne i {
+        color: #1572B6;
     }
     .projects__container {
         max-width: 250px;
