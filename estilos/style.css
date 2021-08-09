@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    height: 70vh;
+    height: 80vh;
     background-color: #3D3D3D;
 }
 
@@ -46,6 +46,10 @@ body {
 
 .socialMedia ul li {
     margin-right: 20px;
+}
+
+.menu__tips {
+    display: none;
 }
 
 .perfil__container {
@@ -81,7 +85,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     position: absolute;
-    top: 38vh;
+    top: 44vh;
 }
 
 .skills__Row {
@@ -162,6 +166,7 @@ body {
     margin-top: 100px;
     text-align: end;
     color: white;
+    font-size: 22px;
 }
 
 .project {
@@ -179,6 +184,14 @@ body {
 
 .contact i {
     color: #FF4D4D;
+}
+
+.skill-cssOne {
+    display: none;
+}
+
+.skills-angularOne {
+    display: none;
 }
 
 @media (min-width: 420px) {
@@ -210,5 +223,176 @@ body {
         min-height: 100vh !important;
         clip-path: polygon(100% 0, 0 0, 0 100%);
         background-color: #3D3D3D;
+    }
+    .socialMedia {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .menu__tips {
+        display: initial;
+    }
+    .menu__tips ul {
+        display: flex;
+    }
+    .menu__tips ul li {
+        margin-left: 60px;
+    }
+    .menu__tips ul li a {
+        color: white;
+        font-size: 22px;
+    }
+    .perfil__container h1 {
+        margin: 0;
+        padding-top: 5px;
+    }
+    .perfil__container p {
+        width: 240px;
+        margin: 0;
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    .skills__container {
+        width: 100%;
+        margin: 0 auto;
+        top: 14vh;
+    }
+    .skill-cssOne {
+        display: inherit;
+    }
+    .skill-cssOne i {
+        color: #1572B6;
+    }
+    .skills-css {
+        display: none;
+    }
+    .skills-nodeJS {
+        margin: 0 30px 0 auto;
+    }
+    .skills-angularOne i {
+        color: #B52E31;
+    }
+    .skills-angularOne {
+        display: inherit;
+        margin: auto 0 0 auto;
+    }
+    .skills-angular {
+        display: none;
+    }
+    .skills-js {
+        margin: 80px auto 0 25px;
+    }
+    .skills-noImportant {
+        display: none;
+    }
+    .skills__me {
+        margin: 0 auto;
+    }
+    .projects__container {
+        max-width: 250px;
+        position: absolute;
+        top: 32vh;
+        right: 20px;
+    }
+    .projects__container h1 {
+        margin-top: 0;
+        text-align: end;
+        color: white;
+        font-size: 22px;
+    }
+    .project {
+        width: 100%;
+        height: 150px;
+        background-color: yellow;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media (min-width: 1000px) {
+    .perfil__container h1 {
+        max-width: 500px;
+        margin: 0;
+        padding-top: 5px;
+        font-size: 52px;
+    }
+    .perfil__container p {
+        width: 320px;
+        margin: 0;
+        padding-top: 30px;
+        font-size: 21px;
+    }
+    .skills__container {
+        width: 100%;
+        margin: 0 auto;
+        top: 0vh;
+    }
+    .skills__me {
+        width: 200px;
+        height: 200px;
+    }
+    .skills-angularOne {
+        display: inherit;
+        margin: auto auto auto auto;
+    }
+    .skills-nodeJS {
+        margin: 0 auto 0 60px;
+    }
+    .skills-js {
+        margin: auto auto 0 120px;
+    }
+    .skill-cssOne {
+        margin: auto auto auto 40px;
+    }
+    .projects__container {
+        max-width: 350px;
+        position: absolute;
+        top: 30vh;
+        right: 20px;
+    }
+    .projects__container h1 {
+        margin-top: 0;
+        text-align: end;
+        color: white;
+        font-size: 32px;
+    }
+    .project {
+        width: 100%;
+        height: 150px;
+        background-color: yellow;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .perfil__container h1 {
+        max-width: 600px;
+        margin: 0;
+        padding-top: 5px;
+        font-size: 62px;
+    }
+    .perfil__container p {
+        width: 600px !important;
+        margin: 0;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    .projects__container {
+        max-width: 500px;
+        position: absolute;
+        top: 30vh;
+        right: 20px;
+    }
+    .projects__container h1 {
+        margin-top: 0;
+        text-align: end;
+        color: white;
+        font-size: 42px;
+    }
+    .project {
+        width: 100%;
+        height: 150px;
+        background-color: yellow;
+        margin: 20px 0 0 0;
     }
 }
