@@ -253,11 +253,11 @@ body {
         padding-top: 5px;
         font-size: 16px;
     }
-    .skills__container {
+    /* .skills__container {
         width: 100%;
         margin: 0 auto;
         top: 20vh;
-    }
+    } */
     .skill-cssOne {
         display: inherit;
     }
@@ -286,9 +286,9 @@ body {
     .skills-noImportant {
         display: none;
     }
-    .skills__me {
+    /* .skills__me {
         margin: 0 auto;
-    }
+    } */
     .skills__container {
         width: 100%;
         margin: 0 auto;
