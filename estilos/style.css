@@ -253,42 +253,21 @@ body {
         padding-top: 5px;
         font-size: 16px;
     }
-    /* .skills__container {
-        width: 100%;
-        margin: 0 auto;
-        top: 20vh;
-    } */
     .skill-cssOne {
         display: inherit;
     }
-    /* .skill-cssOne i {
-        color: #1572B6;
-    } */
     .skills-css {
         display: none;
     }
-    /*  .skills-nodeJS {
-        margin: 0 0 0 auto;
-    } */
     .skills-angularOne i {
         color: #B52E31;
     }
-    /*  .skills-angularOne {
-        display: inherit;
-        margin: auto 0 0 auto;
-    } */
     .skills-angular {
         display: none;
     }
-    /* .skills-js {
-        margin: 80px auto 0 0;
-    } */
     .skills-noImportant {
         display: none;
     }
-    /* .skills__me {
-        margin: 0 auto;
-    } */
     .skills__container {
         width: 100%;
         margin: 0 auto;
