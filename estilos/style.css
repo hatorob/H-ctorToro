@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 40px;
+    color: white;
+}
+
+body {
+    background-color: #FF4D4D;
+}
+
+.container {
+    height: 70vh;
+    background-color: #3D3D3D;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socialMedia {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.socialMedia ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialMedia ul li {
+    margin-right: 20px;
+}
+
+.perfil__container {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.perfil__container h1 {
+    max-width: 380px;
+    margin: 0 auto;
+    line-height: 45px;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+.perfil__container img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.perfil__container p {
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #c2c7c7;
+    font-size: 16px;
+}
+
+.skills__container {
+    /*   width: 90%;
+    margin: 0 auto; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: absolute;
+    top: 38vh;
+}
+
+.skills__Row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.skills {
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    opacity: .7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-js {
+    margin-top: 80px;
+}
+
+.skills i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F7DF1E;
+    z-index: 1;
+}
+
+.me {
+    grid-template-areas: "angular angular me css css";
+}
+
+.skills-angular {
+    grid-area: angular;
+    margin: 35px 10px 0 auto;
+}
+
+.skills-angular i {
+    color: #B52E31;
+}
+
+.skills__me {
+    grid-area: me;
+    width: 140px;
+    height: 140px;
+    background-image: url('../src/me.jpeg');
+    background-size: contain;
+    background-repeat: none;
+    background-position: center top;
+    border-radius: 50%;
+}
+
+.skills-css {
+    grid-area: css;
+    margin: 35px auto 0 10px;
+}
+
+.skills-css i {
+    color: #1572B6;
+}
+
+.skills-nodeJS {
+    margin: 0 0 0 auto;
+}
+
+.skills-nodeJS i {
+    color: #7DB01D;
+}
+
+.projects__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projects__container h1 {
+    margin-top: 100px;
+    text-align: end;
+    color: white;
+}
+
+.project {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    margin: 20px 0;
+}
+
+.contact {
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+}
+
+.contact i {
+    color: #FF4D4D;
+}
+
+@media (min-width: 420px) {
+    .socialMedia ul {
+        display: flex;
+        justify-content: space-around !important;
+    }
+    .perfil__container h1 {
+        padding-top: 20px;
+        font-size: 36px;
+    }
+    .perfil__container p {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .skills-angular {
+        grid-area: angular;
+        margin: 35px 30px 0 auto;
+    }
+    .skills-css {
+        grid-area: css;
+        margin: 35px auto 0 30px;
+    }
+}
+
+@media (min-width: 700px) {
+    .container {
+        width: 100%;
+        min-height: 100vh !important;
+        clip-path: polygon(100% 0, 0 0, 0 100%);
+        background-color: #3D3D3D;
+    }
+}
