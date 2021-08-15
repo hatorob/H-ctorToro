@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    height: calc(100vh - 30vh);
+    height: 460px;
     background-color: #3D3D3D;
 }
 
@@ -87,7 +87,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     position: absolute;
-    top: calc(100vh - 61.7vh);
+    top: 250px;
     bottom: calc(100vh - 90vh);
 }
 
