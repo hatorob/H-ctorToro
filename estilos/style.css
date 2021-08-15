@@ -51,6 +51,26 @@ body {
 
 .menu__tips {
     display: none;
+    /* position: absolute;
+    background-color: #FF4D4D;
+    width: 350px;
+    height: 160px;
+    text-align: center;
+    opacity: .9; */
+}
+
+.menu__tips a {
+    color: white;
+    font-size: 26px;
+    margin: 10px;
+}
+
+.menu__tips a:hover {
+    text-decoration: underline;
+}
+
+.menu__tips ul li {
+    padding: 5px;
 }
 
 .perfil__container {
