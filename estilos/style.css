@@ -19,10 +19,11 @@ i {
 
 body {
     background-color: #FF4D4D;
+    height: 100vh;
 }
 
 .container {
-    height: 70vh;
+    height: calc(100vh - 30vh);
     background-color: #3D3D3D;
 }
 
@@ -82,10 +83,12 @@ body {
 .skills__container {
     /*   width: 90%;
     margin: 0 auto; */
+    height: auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     position: absolute;
-    top: 38vh;
+    top: calc(100vh - 61.7vh);
+    bottom: calc(100vh - 90vh);
 }
 
 .skills__Row {
@@ -163,7 +166,7 @@ body {
 }
 
 .projects__container h1 {
-    margin-top: 100px;
+    margin-top: 120px;
     text-align: end;
     color: white;
     font-size: 22px;
@@ -271,7 +274,7 @@ body {
     .skills__container {
         width: 100%;
         margin: 0 auto;
-        top: 10vh;
+        top: calc(100vh - 92vh);
     }
     .skills__me {
         width: 200px;
@@ -279,10 +282,10 @@ body {
     }
     .skills-angularOne {
         display: inherit;
-        margin: auto 0 50px auto;
+        margin: auto 0 30px auto;
     }
     .skills-nodeJS {
-        margin: 0 auto 0 40px;
+        margin: 0 auto 0 auto;
     }
     .skills-js {
         margin: auto 60px 20px auto;
@@ -299,7 +302,7 @@ body {
     .projects__container {
         max-width: 250px;
         position: absolute;
-        top: 32vh;
+        top: calc(100% - 68vh);
         right: 20px;
     }
     .projects__container h1 {
@@ -332,7 +335,7 @@ body {
     .skills__container {
         width: 100%;
         margin: 0 auto;
-        top: 10vh;
+        top: calc(100% - 90vh);
     }
     .skills__me {
         width: 200px;
@@ -340,10 +343,10 @@ body {
     }
     .skills-angularOne {
         display: inherit;
-        margin: auto 0 50px auto;
+        margin: auto 60px 0 auto;
     }
     .skills-nodeJS {
-        margin: 0 100px 0 auto;
+        margin: 35px 180px 0 auto;
     }
     .skills-js {
         margin: auto auto 20px 120px;
@@ -354,7 +357,7 @@ body {
     .projects__container {
         max-width: 350px;
         position: absolute;
-        top: 30vh;
+        top: calc(100% - 70vh);
         right: 20px;
     }
     .projects__container h1 {
@@ -387,7 +390,7 @@ body {
     .projects__container {
         max-width: 500px;
         position: absolute;
-        top: 30vh;
+        top: calc(100% - 70vh);
         right: 20px;
     }
     .projects__container h1 {
