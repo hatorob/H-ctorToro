@@ -146,6 +146,8 @@ body {
 .skills-angular {
     grid-area: angular;
     margin: 35px 10px 0 auto;
+    /* transition: 4s; */
+    animation: alternate;
 }
 
 .skills-angular i {
@@ -193,10 +195,46 @@ body {
 }
 
 .project {
-    width: 100%;
-    height: 200px;
-    background-color: yellow;
+    width: 100px;
+    height: 300px;
     margin: 20px 0;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    background: url("/src/spotyApp.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-img2 {
+    width: 100%;
+    height: 100%;
+    background: url("/src/firechat.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-img3 {
+    width: 100%;
+    height: 100%;
+    background: url("/src/tiendaVirtual.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.verProjects a {
+    background-color: #FF4D4D;
+    opacity: 0.7;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
 }
 
 .contact {
@@ -238,6 +276,14 @@ body {
         grid-area: css;
         margin: 35px auto 0 30px;
     }
+    .project {
+        width: 100%;
+        height: 300px;
+        margin: 20px 0;
+    }
+    .verProjects a {
+        right: 70px;
+    }
 }
 
 @media (min-width: 700px) {
@@ -247,8 +293,28 @@ body {
         clip-path: polygon(100% 0, 0 0, 0 100%);
         background-color: #3D3D3D;
     }
+    .spotyapp {
+        display: none;
+    }
     .socialMedia {
         display: none;
+        /* position: fixed;
+        bottom: 0; */
+    }
+    .socialMedia2 {
+        position: fixed;
+        bottom: 10px;
+    }
+    .socialMedia2 {
+        width: 100%;
+        margin-right: 50px;
+    }
+    .socialMedia2 ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socialMedia2 ul li {
+        margin-right: 5px;
     }
     .menu {
         display: none;
@@ -392,6 +458,9 @@ body {
         background-color: yellow;
         margin: 20px 0 0 0;
     }
+    .verProjects a {
+        right: 0;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -425,4 +494,57 @@ body {
         background-color: yellow;
         margin: 20px 0 0 0;
     }
+    .verProjects a {
+        right: 0;
+    }
+}
+
+.main-container {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.puntero {
+    cursor: pointer;
+}
+
+.w120 {
+    width: 120px;
+}
+
+
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast-project {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
 }
