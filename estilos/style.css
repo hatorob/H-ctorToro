@@ -284,6 +284,9 @@ body {
     .verProjects a {
         right: 70px;
     }
+}
+
+@media (max-width: 500px) {
     .socialMedia2 {
         display: none;
     }
