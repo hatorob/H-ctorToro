@@ -284,6 +284,9 @@ body {
     .verProjects a {
         right: 70px;
     }
+    .socialMedia2 {
+        display: none;
+    }
 }
 
 @media (min-width: 700px) {
@@ -302,6 +305,7 @@ body {
         bottom: 0; */
     }
     .socialMedia2 {
+        display: initial;
         position: fixed;
         bottom: 10px;
     }
